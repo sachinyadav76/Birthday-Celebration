@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Celebration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="entryScreen">
+        <h1>Welcome 🎉</h1>
+        <button onclick="startCelebration()">Start Celebration</button>
+    </div>
+
+    <canvas id="fireworks"></canvas>
+    <div id="popup">You are the best friend ever ❤️</div>
+    <div class="confetti"></div>
+
+    <div class="card">
+        <h1 class="neon">Happy Birthday My best Freind Amod Yadav</h1>
+        <h1 id="freindName"></h1>
+         <h2 id="countdown"></h2>
+         <img id="slide" width="250">
+        <button onclick="showMessage()">Enter Surprise</button>
+        <button onclick="enterSurprise()">Full Party Mode 🎉</button>
+        <img id="photoSlide" width="250" style="margin-top:20px;">
+
+        <div id="superiseMessage">🎉 Happy Birthday 🎉</div>
+        <div class="balloons">
+        <div class="balloon"></div>
+        <div class="balloon"></div>
+        <div class="balloon"></div>
+        <div class="balloon"></div>
+    </div>
+        <audio id="music" src="birthdaysong.mp3"></audio>
+        <audio id="cardMusic" src="special.mp3"></audio>
+        <p id="msg"></p>
+
+    <div id="cake" onclick="cutCake()">
+    <div class="layer"></div>
+    <div class="icing"></div>
+    <div class="candle"></div>
+    <div class="flame"></div>
+</div>
+<button onclick="cutCake()">Cut Cake 🎂</button>
+<div id="cake">
+    <div id="candle"></div>
+</div>
+
+
+        <div class="cake">
+
+            <div class="layer"></div>
+            <div class="candle"></div>
+            <div class="flame"></div>
+
+            <div class="card-container">
+                <div class="birthday-card" id="birthday-card">
+                    <div class="card-front">
+                        🎁 Click to Open
+                    </div>
+                    <div class="card-inside">"मेरे प्यारे दोस्त, तुम हमेशा खुश रहो और तुम्हारी जिंदगी में ढेर सारी खुशियाँ और सफलताएँ आएं।जन्मदिन पर ढेर सारी दुआएं!" ....May your life be filled with happiness and love ❤️</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="fireworks"></div>
+    <script src="logic.js"></script>
+
+</body>
+</html>
